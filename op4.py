@@ -18,7 +18,7 @@ class BUT(Genius):
         obj = Genius(self.name)
         return obj
     def complete(self):
-        print(f'{self.make_object().write_geniy()}, но её отчислят если она не будет учить ООП')
+        print(f'{self.make_object().write_geniy()}, но его отчислят если он не будет учить ООП')
 
 def check():
     test = BUT('Oleg')
